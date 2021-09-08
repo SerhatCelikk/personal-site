@@ -25,5 +25,14 @@
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "styled-components/rule-name": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        ["@components", "./src/components"],
+        ["@images", "./src/images"],
+        ["@lib", "./src/lib"]
+      ]
+    }
   }
 }

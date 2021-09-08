@@ -1,0 +1,24 @@
+{
+  "include": ["./src", "global.d.ts"],
+  "compileOnSave": true,
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "ES6",
+    "strict": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "allowJs": true,
+    "module": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "alwaysStrict": false,
+    "moduleResolution": "Node",
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@components": ["/src/components"],
+      "@images": ["/src/images"],
+      "@lib": ["/src/lib"]
+    }
+  }
+}
