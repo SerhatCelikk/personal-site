@@ -1,5 +1,4 @@
 {
-  "include": ["./src", "global.d.ts"],
   "compileOnSave": true,
   "compilerOptions": {
     "noImplicitAny": true,
