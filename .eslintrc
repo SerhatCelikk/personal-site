@@ -29,9 +29,9 @@
   "settings": {
     "import/resolver": {
       "alias": [
-        ["@components", "./src/components"],
-        ["@images", "./src/images"],
-        ["@lib", "./src/lib"]
+        ["components", "./components"],
+        ["images", "./images"],
+        ["lib", "./lib"]
       ]
     }
   }
