@@ -30,8 +30,10 @@
     "import/resolver": {
       "alias": [
         ["components", "./components"],
+        ["hooks", "./hooks"],
         ["images", "./images"],
-        ["lib", "./lib"]
+        ["lib", "./lib"],
+        ["styles", "./styles"]
       ]
     }
   }
