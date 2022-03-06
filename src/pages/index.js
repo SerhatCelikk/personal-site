@@ -83,7 +83,7 @@ const Index = ({ path, data }) => {
                 <Github />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 target="_blank"
                 href={data.resume.publicURL}
@@ -92,7 +92,7 @@ const Index = ({ path, data }) => {
               >
                 <Resume />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
 
