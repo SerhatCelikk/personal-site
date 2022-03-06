@@ -4,15 +4,15 @@
   "version": "2.3.5",
   "license": "MIT",
   "author": {
-    "name": "Jacob D. Castro",
-    "email": "jdcastro.business@gmail.com",
-    "url": "https://jacobdcastro.com/"
+    "name": "Serhat Çelik",
+    "email": "serhatcelikyazilim@gmail.com",
+    "url": "https://serhat-celik.site"
   },
   "contributors": [
     {
-      "name": "Jacob D. Castro",
-      "email": "jdcastro.business@gmail.com",
-      "url": "https://jacobdcastro.com/"
+      "name": "Serhat Çelik",
+      "email": "serhatcelikyazilim@gmail.com",
+      "url": "https://serhat-celik.site"
     }
   ],
   "scripts": {

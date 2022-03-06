@@ -37,8 +37,9 @@ const Index = ({ path, data }) => {
       <IndexPageWrapper>
         <div className="indexIntro">
           <h1 className="headline">
-            I'm Jacob Daniel Castro,
-            <br />a fullstack JavaScript
+            I'm Serhat Çelik,
+            <br />
+            Solidity and Javascript
             <br /> developer.
           </h1>
           <ul className="introSocialLinks">

@@ -55,10 +55,7 @@ const Head = ({ seo }) => {
 
   return (
     <Helmet>
-      <title>
-        {seo.title && `${seo.title} | `}Jacob D. Castro - Fullstack JavaScript
-        Developer
-      </title>
+      <title>{seo.title && `${seo.title} | `}Serhat Çelik - Developer</title>
       <meta name="Description" content={seo.description} />
       <meta name="description" content={seo.description} />
       <meta
@@ -69,8 +66,7 @@ const Head = ({ seo }) => {
       {/* Open Graph meta tags */}
       <meta
         property="og:title"
-        content={`${seo.title &&
-          seo.title + ' | '}Jacob D. Castro - Fullstack JavaScript Developer`}
+        content={`${seo.title && seo.title + ' | '}}Serhat Çelik - Developer`}
       />
       <meta property="og:description" content={seo.description} />
       <meta property="og:url" content={seo.url} />
@@ -90,8 +86,7 @@ const Head = ({ seo }) => {
       <meta property="twitter:creator" content={handle} />
       <meta
         property="twitter:title"
-        content={`${seo.title &&
-          seo.title + ' | '}Jacob D. Castro - Fullstack JavaScript Developer`}
+        content={`${seo.title && seo.title + ' | '}}Serhat Çelik - Developer`}
       />
       <meta property="twitter:description" content={seo.description} />
       <meta property="twitter:image" content={`${url}${seo.imgUrl}`} />
@@ -104,16 +99,16 @@ const Head = ({ seo }) => {
           '@type': 'Person',
           email: `mailto:${email}`,
           image: '',
-          jobTitle: 'Web Developer',
-          name: 'Jacob Castro',
+          jobTitle: 'Web3 Developer',
+          name: '}Serhat Çelik',
           additionalName: 'Daniel',
           alternateName: 'Jacob D. Castro',
-          givenName: 'Jacob Daniel Castro',
+          givenName: '}Serhat Çelik',
           description: `${miniBio}`,
           birthPlace: 'Santa Barbara, CA',
           birthDate: '1997-05-27',
           gender: 'male',
-          nationality: 'United States of America',
+          nationality: 'Turkey',
           url: `${url}`,
           sameAs: [
             `${twitterURL}`,

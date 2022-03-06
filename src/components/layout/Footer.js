@@ -93,7 +93,10 @@ const Footer = () => {
 
       <span>
         Let's connect! <br />
-        Email me: <a href="mailto:jacob@jdc.dev">jacob@jdc.dev</a>
+        Email me:{' '}
+        <a href="mailto:serhatcelikyazilim@gmail.com">
+          serhatcelikyazilim@gmail.com
+        </a>
         <br />
         or{' '}
         <span>
@@ -124,15 +127,8 @@ const Footer = () => {
           })}
         </ul>
       </div>
-
-      <a
-        href="https://github.com/jacobdcastro/personal-site/releases"
-        rel="noopener"
-      >
-        v2.3.5
-      </a>
       <a href={`${url}/sitemap.xml`}>Sitemap</a>
-      <small>&copy;{new Date().getFullYear()} - JDCastro Digital</small>
+      <small>&copy;{new Date().getFullYear()} - Serhat</small>
     </FooterWrapper>
   );
 };
