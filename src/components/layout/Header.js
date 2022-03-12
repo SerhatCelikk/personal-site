@@ -28,7 +28,6 @@ const Header = () => {
         <div id="logo">
           <Link to="/" aria-label="to home page">
             <LogoSVG />
-            <h2>JACOB D. CASTRO</h2>
           </Link>
         </div>
 
