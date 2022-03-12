@@ -8,6 +8,7 @@ const lightTheme = {
   bgColor: '#f9f9f9',
   textColor: '#080708',
   accentColor: '#6128d3',
+  themeType: 'light',
 };
 
 const darkTheme = {
@@ -15,6 +16,7 @@ const darkTheme = {
   bgColor: '#1a1e1c',
   textColor: '#f9f9f9',
   accentColor: '#6128d3',
+  themeType: 'dark',
 };
 
 export { darkTheme, lightTheme };
