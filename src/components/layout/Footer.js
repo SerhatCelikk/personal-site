@@ -81,8 +81,8 @@ const Footer = () => {
       <AnnouncementBanner />
       <span className="typoSpan">
         See a typo or want to contribute?{' '}
-        <a href="mailto:jdcastro.business@gmail.com">Email me</a> or submit a PR
-        or issue on{' '}
+        <a href="mailto:serhatcelikyazilim@gmail.com">Email me</a> or submit a
+        PR or issue on{' '}
         <a href="https://github.com/jacobdcastro/personal-site/" rel="noopener">
           the Github repo
         </a>

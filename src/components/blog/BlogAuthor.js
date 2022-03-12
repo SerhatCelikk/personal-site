@@ -47,12 +47,12 @@ const BlogAuthor = () => {
       <div className="portrait">
         <Img
           fluid={myData.portrait.childImageSharp.fluid}
-          title="Jacob D. Castro"
+          title="Serhat Çelik"
           alt="photo from side of me looking left with sunset beach in background"
           style={{
             height: '80px',
             width: '80px',
-            borderRadius: '100%'
+            borderRadius: '100%',
           }}
         />
       </div>
