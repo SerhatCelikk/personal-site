@@ -78,8 +78,8 @@ const Footer = () => {
 
   return (
     <FooterWrapper>
-      <AnnouncementBanner />
-      <span className="typoSpan">
+      {/* <AnnouncementBanner /> */}
+      {/* <span className="typoSpan">
         See a typo or want to contribute?{' '}
         <a href="mailto:serhatcelikyazilim@gmail.com">Email me</a> or submit a
         PR or issue on{' '}
@@ -87,7 +87,7 @@ const Footer = () => {
           the Github repo
         </a>
         !
-      </span>
+      </span> */}
 
       {/* <EmailSubForm /> */}
 
