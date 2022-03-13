@@ -126,6 +126,7 @@ const Footer = () => {
             );
           })}
         </ul>
+        <a href="/web3">Try web3</a>
       </div>
       <a href={`${url}/sitemap.xml`}>Sitemap</a>
       <small>&copy;{new Date().getFullYear()} - Serhat</small>

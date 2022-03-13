@@ -1,6 +1,10 @@
 import React from 'react';
 import { lightTheme, darkTheme } from '../styles/layout/__themes';
-
+import { Web3ReactProvider } from '@web3-react/core';
+import Web3 from 'web3';
+function getLibrary(provider) {
+  return new Web3(provider);
+}
 const ThemeContext = React.createContext({
   lightTheme,
   transition: '0.5s',
@@ -41,9 +45,11 @@ class ThemeContextWrapper extends React.Component {
 
   render() {
     return (
-      <ThemeContext.Provider value={this.state}>
-        {this.props.children}
-      </ThemeContext.Provider>
+      <Web3ReactProvider getLibrary={getLibrary}>
+        <ThemeContext.Provider value={this.state}>
+          {this.props.children}
+        </ThemeContext.Provider>
+      </Web3ReactProvider>
     );
   }
 }
