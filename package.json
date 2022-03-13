@@ -71,6 +71,7 @@
     "babel-jest": "^24.9.0",
     "babel-plugin-styled-components": "^1.10.6",
     "babel-preset-gatsby": "^0.2.27",
+    "electron": "^17.1.2",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-styled-components": "0.0.0",
