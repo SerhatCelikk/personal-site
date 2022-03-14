@@ -34,6 +34,11 @@ const MobileNav = ({ mobileNavIsOpen, action }) => {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link activeClassName="activePage" to="/web3">
+                  Web3
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>
