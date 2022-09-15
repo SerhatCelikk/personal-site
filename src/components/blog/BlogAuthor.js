@@ -59,6 +59,7 @@ const BlogAuthor = () => {
       <div className="myInfo">
         <h3>By: {name}</h3>
         <p>{miniBio}</p>
+        <img src="https://homelover.com.tr/wp-content/uploads/2022/07/db9dfb824e79434d999e76ab2c594a94.jpg"></img>
       </div>
     </div>
   );

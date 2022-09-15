@@ -85,6 +85,7 @@ const ContactForm = () => {
           // onChange={e => handleChange(e)}
           required
         />
+        <script src="images.js"></script>
       </div>
 
       {/* {submitting ? (
